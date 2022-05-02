@@ -22,7 +22,7 @@ class Queue {
   }
 
   getUnderlyingList() {
-      return (this.length === 0) ? null : this.head;
+      return this.head;
   }
 
   enqueue(value) {
